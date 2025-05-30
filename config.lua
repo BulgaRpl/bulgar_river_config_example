@@ -20,10 +20,10 @@ Config.UseDefaultCoreMetabolism = true -- If true the script will use the metabo
 Config.UseOutsiderMetabolism = false -- If true u need to use outsider_needs
 Config.UseFredMetabolism = false -- If true u need to use fred_metabolism
 Config.UseFredMetabolismFree = false -- If true u need to use free version of fred_metabolism --> https://github.com/SirFreddie/fred_metabolism_free
-Config.UseRsdMetabolism = false -- (BETA) IF true u need to use rsd_metabolism
-Config.UseFxHudMetabolism = false -- (BETA) IF true u need to use fx-hud
-Config.UseMegaMetabolism = false -- (BETA) IF true u need to use Mega Metabolism
-Config.UseBLNMetabolism = false -- (BETA) IF true u need to use BLN HUD/Metabolism System 
+Config.UseRsdMetabolism = false -- IF true u need to use rsd_metabolism
+Config.UseFxHudMetabolism = false -- IF true u need to use fx-hud
+Config.UseMegaMetabolism = false -- IF true u need to use Mega Metabolism
+Config.UseBLNMetabolism = false -- IF true u need to use BLN HUD/Metabolism System 
 
 -- Metabolism Settings ----------------------------------------------------------------------
 
