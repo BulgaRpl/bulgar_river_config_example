@@ -20,35 +20,39 @@ Config.UseDefaultCoreMetabolism = true -- If true the script will use the metabo
 Config.UseOutsiderMetabolism = false -- If true u need to use outsider_needs
 Config.UseFredMetabolism = false -- If true u need to use fred_metabolism
 Config.UseFredMetabolismFree = false -- If true u need to use free version of fred_metabolism --> https://github.com/SirFreddie/fred_metabolism_free
+Config.UseRsdMetabolism = false -- (BETA) IF true u need to use rsd_metabolism
+Config.UseFxHudMetabolism = false -- (BETA) IF true u need to use fx-hud
+Config.UseMegaMetabolism = false -- (BETA) IF true u need to use Mega Metabolism
+Config.UseBLNMetabolism = false -- (BETA) IF true u need to use BLN HUD/Metabolism System 
 
 -- Metabolism Settings ----------------------------------------------------------------------
 
 -- -250 Thirst if u drink Dirty Water and get Sick
--- Set this to -25 if u use Fred Metabolism Script or REDEMRPREBOOT/REDEMRP!
--- Set this to 25 if u use Outsider_Needs Metabolism Script or RSGCore! 
+-- Set this to -25 if u use Fred Metabolism Script or REDEMRPREBOOT/REDEMRP! or rsd_metabolism or fx-hud or Mega Metabolism
+-- Set this to 25 if u use Outsider_Needs Metabolism Script or RSGCore! or BLN HUD/Metabolism
 Config.DirtyWaterRemoveStatusThirstSick = -250 
 
 -- -250 Hunger if u drink Dirty Water and get Sick
--- Set this to -25 if u use Fred Metabolism Script or REDEMRPREBOOT/REDEMRP!
--- Set this to 25 if u use Outsider_Needs Metabolism Script or RSGCore!
+-- Set this to -25 if u use Fred Metabolism Script or REDEMRPREBOOT/REDEMRP! or rsd_metabolism or fx-hud or Mega Metabolism
+-- Set this to 25 if u use Outsider_Needs Metabolism Script or RSGCore! or BLN HUD/Metabolism
 Config.DirtyWaterRemoveStatusHungerSick = -250
 
 -- +100 Thirst if u drink Dirty Water
--- Set this to 10 if u use Fred/Outsider_Needs Metabolism Script or REDEMRPREBOOT/REDEMRP/RSGCore!
+-- Set this to 10 if u use Fred/Outsider_Needs Metabolism Script or REDEMRPREBOOT/REDEMRP/RSGCore! or rsd_metabolism or fx-hud or Mega Metabolism or BLN HUD/Metabolism
 Config.DirtyWaterAddStatusThirst = 100 
 
 -- How much more Thirst will be taken every 30 second when u are Sick.
--- Set this to -2 if u use Fred Metabolism Script or REDEMRPREBOOT/REDEMRP!
--- Set this to 2 if u use Outsider_Needs Metabolism Script or RSGCore! 
+-- Set this to -2 if u use Fred Metabolism Script or REDEMRPREBOOT/REDEMRP! or rsd_metabolism or fx-hud or Mega Metabolism
+-- Set this to 2 if u use Outsider_Needs Metabolism Script or RSGCore! or BLN HUD/Metabolism 
 Config.DirtyWaterRemoveStatusThirstSickTime = -20
 
 -- How much more Hunger will be taken every 30 second when u are Sick.
--- Set this to -2 if u use Fred Metabolism Script or REDEMRPREBOOT/REDEMRP!
--- Set this to 2 if u use Outsider_Needs Metabolism Script or RSGCore!
+-- Set this to -2 if u use Fred Metabolism Script or REDEMRPREBOOT/REDEMRP! or rsd_metabolism or fx-hud or Mega Metabolism
+-- Set this to 2 if u use Outsider_Needs Metabolism Script or RSGCore! or BLN HUD/Metabolism
 Config.DirtyWaterRemoveStatusHungerSickTime = -20
 
 -- +300 Thirst if u drink Clear Water
--- Set this to 30 if u use Fred/Outsider_Needs Metabolism Script or REDEMRPREBOOT/REDEMRP/RSGCore!
+-- Set this to 30 if u use Fred/Outsider_Needs Metabolism Script or REDEMRPREBOOT/REDEMRP/RSGCore! or rsd_metabolism or fx-hud or Mega Metabolism or BLN HUD/Metabolism
 Config.ClearWaterAddStatusThirst = 300
 
 ---------------------------------------------------------------------------------------------
