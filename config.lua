@@ -56,7 +56,7 @@ Config.DirtyWaterRemoveStatusHungerSickTime = -20
 -- +300 Thirst if u drink Clear Water
 -- Set this to 30 if u use Fred/Outsider_Needs Metabolism Script or REDEMRPREBOOT/REDEMRP/RSGCore! or rsd_metabolism or fx-hud or Mega Metabolism or BLN HUD/Metabolism or POS-Metabolism
 Config.ClearWaterAddStatusThirst = 300
-Config.ClearWaterAddStatusPiss = 30 * 0.5 -- Piss setting if u dring Clear Water for POS-Metabolism only
+Config.ClearWaterAddStatusPiss = 30 * 0.5 -- Piss setting if u drink Clear Water for POS-Metabolism only
 
 ---------------------------------------------------------------------------------------------
 
@@ -141,4 +141,5 @@ end
 Config.LeftNot = function(text)
  -- ITS CONFIGURED HERE AFTER U GET THE SCRIPT
 end 
+
 
