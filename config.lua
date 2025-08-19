@@ -23,37 +23,40 @@ Config.UseFredMetabolismFree = false -- If true u need to use free version of fr
 Config.UseRsdMetabolism = false -- IF true u need to use rsd_metabolism
 Config.UseFxHudMetabolism = false -- IF true u need to use fx-hud
 Config.UseMegaMetabolism = false -- IF true u need to use Mega Metabolism
-Config.UseBLNMetabolism = false -- IF true u need to use BLN HUD/Metabolism System 
+Config.UseBLNMetabolism = false -- IF true u need to use BLN HUD/Metabolism System
+Config.UsePOSMetabolism = false -- IF true u need to use POS-Metabolism
 
 -- Metabolism Settings ----------------------------------------------------------------------
 
 -- -250 Thirst if u drink Dirty Water and get Sick
--- Set this to -25 if u use Fred Metabolism Script or REDEMRPREBOOT/REDEMRP! or rsd_metabolism or fx-hud or Mega Metabolism
+-- Set this to -25 if u use Fred Metabolism Script or REDEMRPREBOOT/REDEMRP! or rsd_metabolism or fx-hud or Mega Metabolism or POS-Metabolism
 -- Set this to 25 if u use Outsider_Needs Metabolism Script or RSGCore! or BLN HUD/Metabolism
 Config.DirtyWaterRemoveStatusThirstSick = -250 
 
 -- -250 Hunger if u drink Dirty Water and get Sick
--- Set this to -25 if u use Fred Metabolism Script or REDEMRPREBOOT/REDEMRP! or rsd_metabolism or fx-hud or Mega Metabolism
+-- Set this to -25 if u use Fred Metabolism Script or REDEMRPREBOOT/REDEMRP! or rsd_metabolism or fx-hud or Mega Metabolism or POS-Metabolism
 -- Set this to 25 if u use Outsider_Needs Metabolism Script or RSGCore! or BLN HUD/Metabolism
 Config.DirtyWaterRemoveStatusHungerSick = -250
 
 -- +100 Thirst if u drink Dirty Water
--- Set this to 10 if u use Fred/Outsider_Needs Metabolism Script or REDEMRPREBOOT/REDEMRP/RSGCore! or rsd_metabolism or fx-hud or Mega Metabolism or BLN HUD/Metabolism
-Config.DirtyWaterAddStatusThirst = 100 
+-- Set this to 10 if u use Fred/Outsider_Needs Metabolism Script or REDEMRPREBOOT/REDEMRP/RSGCore! or rsd_metabolism or fx-hud or Mega Metabolism or BLN HUD/Metabolism or POS-Metabolism
+Config.DirtyWaterAddStatusThirst = 100
+Config.DirtyWaterAddStatusPiss = 10 * 0.5 -- Piss setting if u drink Dirty Water for POS-Metabolism only
 
 -- How much more Thirst will be taken every 30 second when u are Sick.
--- Set this to -2 if u use Fred Metabolism Script or REDEMRPREBOOT/REDEMRP! or rsd_metabolism or fx-hud or Mega Metabolism
+-- Set this to -2 if u use Fred Metabolism Script or REDEMRPREBOOT/REDEMRP! or rsd_metabolism or fx-hud or Mega Metabolism or POS-Metabolism
 -- Set this to 2 if u use Outsider_Needs Metabolism Script or RSGCore! or BLN HUD/Metabolism 
 Config.DirtyWaterRemoveStatusThirstSickTime = -20
 
 -- How much more Hunger will be taken every 30 second when u are Sick.
--- Set this to -2 if u use Fred Metabolism Script or REDEMRPREBOOT/REDEMRP! or rsd_metabolism or fx-hud or Mega Metabolism
+-- Set this to -2 if u use Fred Metabolism Script or REDEMRPREBOOT/REDEMRP! or rsd_metabolism or fx-hud or Mega Metabolism or POS-Metabolism
 -- Set this to 2 if u use Outsider_Needs Metabolism Script or RSGCore! or BLN HUD/Metabolism
 Config.DirtyWaterRemoveStatusHungerSickTime = -20
 
 -- +300 Thirst if u drink Clear Water
--- Set this to 30 if u use Fred/Outsider_Needs Metabolism Script or REDEMRPREBOOT/REDEMRP/RSGCore! or rsd_metabolism or fx-hud or Mega Metabolism or BLN HUD/Metabolism
+-- Set this to 30 if u use Fred/Outsider_Needs Metabolism Script or REDEMRPREBOOT/REDEMRP/RSGCore! or rsd_metabolism or fx-hud or Mega Metabolism or BLN HUD/Metabolism or POS-Metabolism
 Config.ClearWaterAddStatusThirst = 300
+Config.ClearWaterAddStatusPiss = 30 * 0.5 -- Piss setting if u dring Clear Water for POS-Metabolism only
 
 ---------------------------------------------------------------------------------------------
 
@@ -138,3 +141,4 @@ end
 Config.LeftNot = function(text)
  -- ITS CONFIGURED HERE AFTER U GET THE SCRIPT
 end 
+
